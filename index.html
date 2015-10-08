@@ -16,25 +16,25 @@
 
 			// Variables: The following variables are numbers 
 
-			var FirstThing = 39;
-			console.log(FirstThing);
+			var firstThing = 39;
+			console.log(firstThing);
 
-			var SecondThing = 42;
-			console.log(SecondThing);
+			var secondThing = 42;
+			console.log(secondThing);
 
-			var TwoThings = (FirstThing + SecondThing);
-			console.log(TwoThings);
+			var twoThings = (firstThing + secondThing);
+			console.log(twoThings);
 
 			// Variables: The following variables are words (which are "strings" of characters)
 
-			var FirstFood = "Chili";
-			console.log(FirstFood);
+			var firstFood = "Chili";
+			console.log(firstFood);
 
-			var SecondFood = "ConCarne"
-			console.log(SecondFood);
+			var secondFood = "ConCarne"
+			console.log(secondFood);
 
-			var ComboFood = (FirstFood + SecondFood);
-			console.log (ComboFood);
+			var comboFood = (firstFood + secondFood);
+			console.log (comboFood);
 
 
 			//2. DEBUGGING
@@ -86,6 +86,8 @@
 			console.log("asdfghjkl");
 			console.log("supercalifragilisticexpialidocious");
 
+
+
 			//Numbers: 
 
 			console.log(1);
@@ -99,25 +101,105 @@
 
 			//This is how you set up a True statement
 
-			var BirdsCanFly=true;
+			var birdsCanFly=true;
 
-			console.log (BirdsCanFly);
+			console.log (birdsCanFly);
 			
 			// The console will tell you "true"
 
 			// Use an exclamation point to negate a true statement
 
-			console.log(!BirdsCanFly);
+			console.log(!birdsCanFly);
+
+
 
 
 			//Undefined: the data has no value
 
 			//We have not designated a value for this variable. Therefore, the variable below will return the word "undefined" in the console
 
-			var PigsCanFly;
+			var pigsCanFly;
 
-			console.log(PigsCanFly);
+			console.log(pigsCanFly);
 
+			// 4.ARRAYS
+
+			// Arrays hold a collection of data, of any data type, designated by square brackets. They can hold any data type.
+
+			// [Matthew, Mark, Luke, John]
+			// [5, 10, 15, 20]
+
+			//Arrays can also be stored in variables:
+
+			// Strings
+			
+			var theBeatles = ["John", "Paul", "George", "Ringo"];
+
+			console.log(theBeatles);
+
+			// Numbers
+
+			var luckyNumbers = [4,8,15,16,23,42];
+
+			console.log(luckyNumbers);
+
+
+			//index: the index of an item inside of an array corresponds to its position from the beginning of the array
+			// Use the index to select one or more items in an array
+			//The first item always has an index of 0. Don't count from 1!
+
+			// Using the Beatles example above
+
+			console.log(theBeatles[2]);
+
+			// Since John is 0, you should see "George" as 2
+
+			//Multi-dimensional Array: An array that contains other arrays.
+
+			var birds = ["Flamingoes","Parrots"];
+			console.log(birds);
+
+			var dinosaurs = ["Raptors","Tyrannosaurs"];
+			console.log(dinosaurs);
+
+			var creatures = [birds,dinosaurs];
+			console.log(creatures);
+
+			// Syntax to access items items nested inside of a multi-dimensional array:
+
+			//declare your mult-dimensional array
+		
+			//access the first array inside
+			//then the first item inside that array
+
+			console.log(creatures[0][0]);
+			
+			//Flamingoes
+
+			//access the second array inside
+			//then the first item inside that array
+
+			console.log(creatures[1][0]);
+
+			//Raptors
+
+			//access the first array inside
+			//then the second item inside that array
+
+			console.log(creatures[0][1]);
+
+			//Parrots
+
+
+
+
+
+
+
+
+
+
+			
 
 
 
